@@ -1,0 +1,9 @@
+:root{
+    --main:#7c8508;
+}
+body{
+    padding: 0;
+    margin: 10;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main);
+}
