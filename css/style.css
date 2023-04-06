@@ -1,9 +1,12 @@
 :root{
     --main:#7c8508;
+    --secondary: #0cabab;
 }
+
 body{
     padding: 0;
     margin: 10;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--main);
+    background: linear-gradient(120deg, var(--main), var(--secondary));
+    
 }
