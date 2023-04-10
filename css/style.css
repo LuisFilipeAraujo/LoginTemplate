@@ -42,7 +42,7 @@ h1{
 
 form .text_field{
     position: relative;
-    border-bottom: 2px var(--extra-color2);
+    border-bottom: 2px solid var(--extra-color2);
     margin: 30px 0;
 }
 
