@@ -111,8 +111,9 @@ input[type="submit"]{
     outline: none;
 }
 
-input[type="submit"].hover{
-    border-color: var(--secondary-color);
+input[type="submit"]:hover{
+    background: var(--secondary-color);
+    border-color: var(--main-color);
     transition: .5s;
 }
 
