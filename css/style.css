@@ -59,6 +59,7 @@ form .text_field label{
    transform: translateY(-50%);
    font-size: 16px;
    pointer-events: none;
+   transition: .5s;
 }
 
 .text_field span::before{
@@ -68,4 +69,10 @@ form .text_field label{
     width: 100%;
     height: 2px;
     background-color: var(--secondary-color);
+}
+
+.text_field input:focus ~ label,
+.text_field input:valid ~ label{
+    top: -5px;
+    color: #fff;
 }
